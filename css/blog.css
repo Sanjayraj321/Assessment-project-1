@@ -1,0 +1,344 @@
+.slideshow{
+
+  background-color: #000000;
+	height: 650px;
+	width: auto;
+	background-size: cover;
+	margin: -8px;
+}
+.slideshow figure{
+	animation: imageAnimation 28s linear infinite 0s;
+	backface-visibility: hidden;
+	background-size: cover;
+	background-position: center center;
+	color: transparent;
+	opacity: 0;
+	z-index: 0;
+	height: 650px;
+	margin: 0px;
+	position: absolute;
+	width: 100%;
+
+}
+.slideshow figure:nth-child(1){
+	background-image: url("C:/Users/SANJAY RAJ/Desktop/project/images/Wallpaper 1080p (65).jpg");
+}
+.slideshow figure:nth-child(2){
+	background-image: url("C:/Users/SANJAY RAJ/Desktop/project/images/Wallpaper 1080p (15).jpg");
+	animation-delay: 6s;
+}
+.slideshow figure:nth-child(3){
+	background-image: url("C:/Users/SANJAY RAJ/Desktop/project/images/Wallpaper 1080p (25).jpg");
+	animation-delay: 12s;
+}
+.slideshow figure:nth-child(4){
+	background-image: url("C:/Users/SANJAY RAJ/Desktop/project/images/Wallpaper 1080p (45).jpg");
+	animation-delay: 18s;
+}
+.slideshow figure:nth-child(5){
+	background-image: url("C:/Users/SANJAY RAJ/Desktop/project/images/Wallpaper 1080p (49).jpg");
+	animation-delay: 24s;
+}
+.slideshow figure:nth-child(6){
+	background-image: url("C:/Users/SANJAY RAJ/Desktop/project/images/Wallpaper 1080p (82).jpg");
+	animation-delay: 30s;
+}
+
+.slideshow figure:nth-child(7){
+	background-image: url("C:/Users/SANJAY RAJ/Desktop/project/images/Wallpaper 1080p (56).jpg");
+	animation-delay: 36s;
+}
+.slideshow figure:nth-child(8){
+	background-image: url("C:/Users/SANJAY RAJ/Desktop/project/images/Wallpaper 1080p (59).jpg");
+	animation-delay: 42s;
+}
+.slideshow figure:nth-child(9){
+	background-image: url("C:/Users/SANJAY RAJ/Desktop/project/images/Wallpaper 1080p (58).jpg");
+	animation-delay: 48s;
+}
+.slideshow figure:nth-child(10){
+	background-image: url("C:/Users/SANJAY RAJ/Desktop/project/images/Wallpaper 1080p (80).jpg");
+	animation-delay: 54s;
+}
+
+
+
+@keyframes
+imageAnimation {
+	0%{
+	animation-timing-function: ease-in;
+	opacity: 0;
+	}
+	8%{
+		animation-timing-function: ease-out;
+		opacity: 1;
+	}
+	17%{
+	
+		opacity: 1;
+	}
+	25%{
+	
+		opacity: 0;
+	}
+	100%{
+	
+		opacity: 0;
+	}
+
+}
+
+.container1{
+	color: yellow;
+	float: left;
+	margin-left: 15px;
+	position: absolute;
+}
+.container2{
+	position: absolute;
+	margin-left: 800px;
+	margin-top: 20px;
+	font-size: 22px;
+
+}
+.a1{
+	color: white;
+	text-decoration: none;
+}
+.a1:hover{
+	color: yellow;
+	font-style: italic;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+.style{
+	list-style: none;
+}
+.menu1{
+	color: white;
+	height: 60px;
+	width: 100px;
+	text-align: center;
+	border-radius: 10px 10px 0px 0px;
+	background-color: transparent;
+	position: absolute;
+	margin-top: 590px;
+	margin-left: 150px;
+}
+.menu1 a{
+	color: white;
+	text-decoration: none;
+}
+.menu1 a:hover{
+	color: black;
+}
+.menu1:hover{
+	background-color: yellow;
+	text-transform: uppercase;
+	color: black;
+}
+.menu2{
+	color: white;
+	height: 60px;
+	width: 100px;
+	text-align: center;
+	border-radius: 10px 10px 0px 0px;
+	background-color: transparent;
+	position: absolute;
+	margin-top: 590px;
+	margin-left: 253px;
+}
+.menu2 a{
+	color: white;
+	text-decoration: none;
+}
+.menu2 a:hover{
+	color: black;
+}
+.menu2:hover{
+	background-color: yellow;
+	text-transform: uppercase;
+	color: black;
+}
+.menu3{
+	color: white;
+	height: 60px;
+	width: 100px;
+	text-align: center;
+	border-radius: 10px 10px 0px 0px;
+	background-color: transparent;
+	position: absolute;
+	margin-top: 590px;
+	margin-left: 355px;
+}
+.menu3 a{
+	color: white;
+	text-decoration: none;
+}
+.menu3 a:hover{
+	color: black;
+}
+.menu3:hover{
+	background-color: yellow;
+	text-transform: uppercase;
+	color: black;
+}
+.menu4{
+	color: white;
+	height: 60px;
+	width: 100px;
+	text-align: center;
+	border-radius: 10px 10px 0px 0px;
+	background-color: transparent;
+	position: absolute;
+	margin-top: 590px;
+	margin-left: 457.5px;
+}
+.menu4 a{
+	color: white;
+	text-decoration: none;
+}
+.menu4 a:hover{
+	color: black;
+}
+.menu4:hover{
+	background-color: yellow;
+	text-transform: uppercase;
+	color: black;
+}
+.container1 pre{
+	font-weight: bold;
+	font-size: 30px;
+	font-style: italic;
+}
+.flight{
+	background:url("C:/Users/SANJAY RAJ/Desktop/project/images/hotel-2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 460px;
+	margin-top: -11px;
+	margin-left: -9px;
+	margin-right: -8px;
+}
+.destination{
+	height: 458px;
+	width: auto;
+	border: 1px grey solid;
+	margin-top: 10px;
+}
+.input{
+	width: 300px;
+	height: 40px;
+}
+.box{
+	margin-left:-8px;
+	height: 500px;
+	width: 100%;
+	display: flex;
+}
+.box1{
+	text-align: center;
+	height: 500px;
+	background: skyblue;
+	width: 400px;
+}
+.img{
+		width: 100px;
+		height: 100px;
+		background: white;
+		border-radius: 50%;
+		margin-top: 30px;
+		margin-left: 150px;
+}
+.img img{
+	padding-top: 15px;
+	height: 70px;
+	width: 70px;
+}
+.box2{
+	text-align: center;
+	height: 500px;
+	width: 400px;
+}
+.box3{
+	text-align: center;
+	height: 500px;
+	width: 400px;
+}
+.box4{
+	text-align: center;
+	height: 500px;
+	width: 400px;
+}
+.popular{
+	text-align: center;
+	height: 800px;
+	width: 100%;
+
+}
+.mainb{
+	margin-left: -10px;
+}
+.mainbox{
+	display: flex;
+}
+.img1{ 
+	height: 400px;
+	width: 370Spx;
+}
+.img1 img{
+	height: 400px;
+	width: 370px;
+}
+.footer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	border-top: 2px yellow solid;
+	background: #2c2e3e;
+	margin-top: 172px;
+	margin-left: -8px;
+	height: 400px;
+	width: 1479px;
+}
+.footer1{
+	color: white;
+	font-style: italic;
+	height: 300px;
+	width: 300px;
+}
+
+.footer2{
+	color: white;
+	font-style: italic;
+	height: 300px;
+	width: 200px;
+}
+.demo{
+	text-align: left;
+	list-style: none;
+}
+.demo a{
+	color: white;
+	text-decoration: none;
+}
+.demo a:hover{
+	text-decoration: underline;
+}
+.footer4{
+	color: white;
+	font-style: italic;
+	height: 300px;
+	width: 250px;
+}
+.footer5{
+	color: white;
+	text-align: right;
+	font-style: italic;
+	height: 300px;
+	width: 250px;
+}
+.footer5 li{
+	text-align: right;
+}
